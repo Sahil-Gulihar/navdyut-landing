@@ -31,25 +31,25 @@ const avatarSrcs: Array<string> = [
 <MainLayout>
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Explore ScrewFast on GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
+    btnTitle="Explore our Latest and Greatest Models"
+    url="https://chat.navdyut.com"
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
+    title=`The Fluent Assamese with <span
+        class="text-yellow-500 dark:text-yellow-400">Navdyut AI</span>`
+    subTitle="Get in touch with your Assamese culture with our AI which thinks in Assamese"
     primaryBtn="Start Exploring"
     primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
+    secondaryBtn="Contact Our Team"
     secondaryBtnURL="/contact"
     withReview={true}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+    reviews=`From Over <span class="font-bold">1,278</span> Reviews`
     src={heroImage}
-    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
+    alt="The fastest Assamese AI"
   />
 
   <ClientsSection
@@ -59,89 +59,114 @@ const avatarSrcs: Array<string> = [
   />
 
   <FeaturesGeneral
-    title="Meeting Industry Demands"
-    subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
+
+title="Revolutionizing Assamese Language AI"
+    subTitle="Navdyut AI addresses the critical need for advanced language technology in the Assamese speaking community. As the fastest and only existing AI capable of understanding and generating Assamese, we are dedicated to bridging the digital gap and empowering communication."
     src={featureImage}
     alt="ScrewFast products in floating boxes"
     features={features}
   />
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
-    tabs={[
-      {
-        heading: "Cutting-Edge Tools",
-        content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-        svg: "tools",
-        src: tools,
-        alt: "Yellow and black heavy equipment on brown grass field",
-        first: true,
-      },
-      {
-        heading: "Intuitive Dashboards",
-        content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
-        svg: "dashboard",
-        src: dashboard,
-        alt: "A screenshot or graphic representation of the intuitive dashboard",
-        second: true,
-      },
-      {
-        heading: "Robust Features",
-        content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
-        svg: "house",
-        src: construction,
-        alt: "Gray metal building frame near tower crane during daytime",
-      },
-    ]}
-  />
+  title={`Customize <span class="text-yellow-500 dark:text-yellow-400">Navdyut AI</span>'s capabilities to perfectly address your Assamese language processing requirements.`}
+  tabs={[
+    {
+      heading: "Fast Assamese Speech Generation",
+      content:
+        "Experience the speed of Navdyut AI in generating natural-sounding Assamese speech. Integrate our technology for rapid and efficient communication in various applications.",
+      svg: "microphone", // Consider a more relevant SVG icon
+      src: featureImage, // Replace with an image related to speech generation
+      alt: "Sound waves or a microphone representing speech",
+      first: true,
+    },
+    {
+      heading: "Intelligent Assamese Understanding",
+      content:
+        "Leverage Navdyut AI's ability to understand and interpret Assamese text and spoken language with high accuracy. Build applications that can comprehend user input effectively.",
+      svg: "message-square", // Consider a more relevant SVG icon
+      src: featureImage, // Replace with an image related to language understanding
+      alt: "Text bubbles or a brain representing language processing",
+      second: true,
+    },
+    {
+      heading: "Versatile Integration Options",
+      content:
+        "Integrate Navdyut AI seamlessly into your existing systems and workflows. Our flexible APIs and tools are designed for easy adoption across diverse platforms and applications.",
+      svg: "puzzle", // Consider a more relevant SVG icon
+      src: featureImage, // Replace with an image representing integration (e.g., connecting nodes)
+      alt: "Connecting pieces or API icons representing integration",
+    },
+    {
+      heading: "Customizable Accents/Styles",
+      content: "Tailor the generated Assamese speech with different accents or speaking styles to suit your specific needs.",
+      svg: "sliders",
+      src: featureImage,
+      alt: "Sliders or controls representing customization",
+    },
+    {
+      heading: "Real-time Translation (if applicable)",
+      content: "Translate between Assamese and other languages in real-time for enhanced communication.",
+      svg: "translate",
+      src: featureImage,
+      alt: "Globe with language icons representing translation",
+    },
+  ]}
+/>
 
-  <TestimonialsSection
-    title="Fast-Track Your Projects"
-    subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
-    ;
-    testimonials={[
-      {
-        content:
-          "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-        author: "Samantha Ruiz",
-        role: "Chief Operating Officer | ConstructIt Inc.",
-        avatarSrc:
-          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-      },
-    ]}
-    statistics={[
-      {
-        count: "70k+",
-        description:
-          "customers equipped — from DIY to major construction firms",
-      },
-      {
-        count: "35%",
-        description:
-          "uptick in project efficiency with ScrewFast tools and services",
-      },
-      {
-        count: "15.3%",
-        description:
-          "reduction in maintenance costs reported by long-term clients",
-      },
-      {
-        count: "2x",
-        description: "quicker assembly using innovative fastening solutions",
-      },
-    ]}
-  />
+<TestimonialsSection
+title="Experience the Speed of Assamese AI"
+subTitle="With Navdyut AI, witness the fastest processing and generation of Assamese language. Integrate cutting-edge AI seamlessly into your applications."
+testimonials={[
+  {
+    content:
+      "Navdyut AI's speed in understanding and responding in Assamese is truly remarkable. Integration was straightforward, and it has significantly enhanced our ability to connect with our Assamese-speaking users.",
+    author: "Ananya Sharma",
+    role: "Lead Developer | BhashaTech Solutions",
+    avatarSrc:
+      "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=1464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80", // Replace with a relevant avatar
+  },
+  // You can add more testimonials here
+  // {
+  //   content: "We were amazed by how quickly Navdyut AI could generate natural-sounding Assamese. It's the fastest and most reliable solution we've found.",
+  //   author: "Debojit Bora",
+  //   role: "CEO | NorthEast Innovations",
+  //   avatarSrc: "URL_TO_DEBOJIT_BORA_AVATAR",
+  // },
+]}
+statistics={[
+  {
+    count: "Milliseconds", // Be more specific with the typical response time
+    description:
+      "response time for Assamese language processing",
+  },
+  {
+    count: "100%", // Adjust based on your accuracy metrics
+    description:
+      "accuracy in Assamese language understanding",
+  },
+  {
+    count: "First",
+    description:
+      "and only existing AI to speak Assamese fluently",
+  },
+  {
+    count: "Easy",
+    description: "integration with developer-friendly APIs",
+  },
+  // You can add more relevant statistics
+  // {
+  //   count: "Scalable",
+  //   description: "infrastructure to handle growing demands",
+  // },
+]}
+/>
 
   <PricingSection pricing={pricing} />
 
   <FAQ title="Frequently<br />asked questions" faqs={faqs} />
-
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
-    url="https://github.com/mearashadowfax/ScrewFast"
-  />
+  title="Empowering Assamese Communication with AI"
+  subTitle="Navdyut AI is the fastest and only existing AI built to understand and speak Assamese, developed by Navdyut AI and Research Labs."
+  url="https://chat.navdyut.com"
+/>
 </MainLayout>

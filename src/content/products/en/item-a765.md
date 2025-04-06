@@ -1,54 +1,59 @@
 ---
-title: "SF-AB A765"
-description: "Assorted Screw Set" 
+title: "Navdyut AI Developer Toolkit"
+description: "A Comprehensive Toolkit for Assamese AI Integration"
+blueprints: 
+    name: "Blueprint 1"
+    version: "1.0"
+    details: "Details about blueprint 1"
+
 main:
   id: 2
   content: |
-    Introducing the SF-AB A765 Assorted Screw Set – the ultimate solution for your screw fastening needs. This comprehensive set includes a wide variety of screws meticulously curated to tackle various projects with ease and precision.
-  imgCard: "@/images/product-image-2.avif"
-  imgMain: "@/images/product-image-main-2.avif"
-  imgAlt: "Mockup boxes of assorted screw set"
+    Introducing the Navdyut AI Developer Toolkit – the ultimate resource for integrating Assamese language AI into your applications. This comprehensive toolkit includes a wide variety of APIs, SDKs, and documentation meticulously curated to empower developers to build innovative solutions with ease and precision.
+  imgCard: "@/images/before-after.avif" # Replace with a toolkit-themed logo or image
+  imgMain: "@/images/before-after.avif" # Replace with your main toolkit logo
+  imgAlt: "Navdyut AI Developer Toolkit Logo"
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
     title: "Description"
   - id: "tabs-with-card-item-2"
     dataTab: "#tabs-with-card-2"
-    title: "Specifications"
+    title: "Contents"
   - id: "tabs-with-card-item-3"
     dataTab: "#tabs-with-card-3"
-    title: "Blueprints"
+    title: "Resources"
 longDescription:
-  title: "Versatile Screw Fastening Solutions"
+  title: "Versatile Tools for Assamese AI Development"
   subTitle: |
-    The SF-AB A765 Assorted Screw Set offers unmatched versatility and convenience, making it the perfect choice for DIY enthusiasts and professionals alike. With a comprehensive selection of screws, you'll always have the right fastener for the job.
-  btnTitle: "Contact sales to learn more"
-  btnURL: "#"
+    The Navdyut AI Developer Toolkit offers unmatched versatility and convenience, making it the perfect choice for developers of all levels looking to incorporate Assamese language capabilities into their projects. With a comprehensive selection of tools and resources, you'll always have what you need to build innovative AI-powered applications.
+  btnTitle: "Explore developer resources"
+  btnURL: "#resources" # Link to the resources tab or a dedicated page
 descriptionList:
-  - title: "Wide Variety"
-    subTitle: "Includes a diverse range of screw types and sizes to accommodate various applications and materials."
-  - title: "Ease of Use"
-    subTitle: "Each screw is designed for effortless installation, ensuring hassle-free fastening every time."
-  - title: "Convenience"
-    subTitle: "Eliminates the need for multiple trips to the hardware store, saving time and effort on your projects."
+  - title: "Wide Range of APIs"
+    subTitle: "Includes APIs for various Assamese AI functionalities, such as speech-to-text, text-to-speech, and natural language understanding."
+  - title: "Easy Integration"
+    subTitle: "Designed for seamless integration with popular programming languages and platforms, ensuring a hassle-free development experience."
+  - title: "Comprehensive Documentation"
+    subTitle: "Provides detailed guides, tutorials, and code samples to help developers get started quickly and effectively."
 specificationsLeft:
-  - title: "Material"
-    subTitle: "Constructed from high-quality materials such as stainless steel, ensuring durability and corrosion resistance."
-  - title: "Assortment"
-    subTitle: "Contains a generous assortment of screws, including wood screws, machine screws, and sheet metal screws."
-  - title: "Quantity"
-    subTitle: "Each set includes a sufficient quantity of screws to handle a wide range of projects and tasks."
-  - title: "Sizes"
-    subTitle: "Available in various sizes to suit different project requirements, ensuring compatibility and versatility."
+  - title: "Supported Languages"
+    subTitle: "Primary focus on Assamese, with potential for integration with other regional and global languages."
+  - title: "Included SDKs"
+    subTitle: "Offers SDKs for popular programming languages like Python, Java, and JavaScript (list actual supported SDKs)."
+  - title: "Licensing Options"
+    subTitle: "Provides flexible licensing options to suit individual developers, startups, and enterprise clients."
+  - title: "Platform Compatibility"
+    subTitle: "Compatible with various operating systems and cloud platforms (list actual compatible platforms)."
 tableData:
-  - feature: ["Specification", "Value"]
+  - feature: ["Component", "Description"]
     description:
-      - ["Length (mm)", "Various"]
-      - ["Weight (g)", "N/A"]
-      - ["Material", "Stainless Steel"]
-      - ["Finish", "Assorted"]
-      - ["Package Contents", "Various screws in a set"]
-blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"
+      - ["Speech-to-Text API", "Converts spoken Assamese audio into text."]
+      - ["Text-to-Speech API", "Generates natural-sounding Assamese speech from text."]
+      - ["NLP API", "Provides functionalities for Assamese language understanding and analysis."]
+      - ["SDK for Python", "Libraries and tools for Python developers to use Navdyut AI."]
+      - ["Documentation Portal", "Comprehensive guides, tutorials, and API references."]
+resources:
+  first: "@/images/icon.png" # Replace with a screenshot of documentation or API interface
+  second: "@/images/icon.png" # Replace with another relevant developer resource image
 ---

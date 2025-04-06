@@ -3,12 +3,12 @@ import ogImageSrc from "@images/social.png";
 
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Navdyut AI",
+  tagline: "Navdyut AI: The Fastest and Only Existing AI to Speak Assamese",
+  description: "Navdyut AI is India's first AI startup, developed by Navdyut AI and Research Labs, specifically designed for the Assamese language. As the fastest and only existing AI capable of speaking Assamese, and the first ever AI startup from North East India, Navdyut AI is revolutionizing regional language technology.",
+  description_short: "Navdyut AI: The fastest and only existing AI to speak Assamese, and India's first regional language AI startup from North East India.",
+  url: "https://navdyut.com", // 
+  author: "Navdyut AI and Research Labs",
 };
 
 export const SEO = {
@@ -35,8 +35,8 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : AI & Research Labs`,
+  description: "Navdyut AI- Flight to AGI in Bharat",
   image: ogImageSrc,
 };
 
