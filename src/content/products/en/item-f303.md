@@ -9,8 +9,8 @@ main:
   id: 4
   content: |
     Introducing Navdyut AI for Enterprise – the robust and reliable Assamese AI solution designed to meet the demanding needs of business applications. Built with scalability and accuracy at its core, this offering provides the power and dependability required for your most critical projects.
-  imgCard: "@/images/icon.png" # Replace with an enterprise-focused logo or image
-  imgMain: "@/images/icon.png" # Replace with your main enterprise logo
+  imgCard: "@/images/ok.avif" # Replace with an enterprise-focused logo or image
+  imgMain: "@/images/ok.avif" # Replace with your main enterprise logo
   imgAlt: "Navdyut AI Enterprise Logo"
 tabs:
   - id: "tabs-with-card-item-1"

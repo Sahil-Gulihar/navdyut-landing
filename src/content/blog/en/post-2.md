@@ -2,10 +2,10 @@
 title: "Elevating Assamese Language Applications with Navdyut AI Services"
 description: "Expert AI services for seamless Assamese language integration"
 author: "Navdyut AI Team"
-authorImage: "@/images/icon.png" # Replace with your actual logo path
+authorImage: "@/images/flyAssam.jpeg" # Replace with your actual logo path
 authorImageAlt: "Navdyut AI Logo"
 pubDate: 2025-04-07 # Updated date
-cardImage: "@/images/icon.png" # Replace with a relevant image
+cardImage: "@/images/flyAssam.jpeg" # Replace with a relevant image
 cardImageAlt: "Abstract design representing language processing and services"
 readTime: 6 # Adjust read time as needed
 tags:

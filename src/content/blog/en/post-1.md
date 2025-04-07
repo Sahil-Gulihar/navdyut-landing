@@ -2,10 +2,10 @@
 title: "Powering Assamese Language Solutions with Navdyut AI"
 description: "Enhancing Communication Efficiency with the Fastest Assamese AI"
 author: "Navdyut AI Team"
-authorImage: "@/images/icon.png" # Replace with your actual logo path
+authorImage: "@/images/fastestAI.jpeg" # Replace with your actual logo path
 authorImageAlt: "Navdyut AI Logo"
 pubDate: 2025-04-07 # Updated date
-cardImage: "@/images/icon.png" # Replace with a relevant image
+cardImage: "@/images/fastestAI.jpeg" # Replace with a relevant image
 cardImageAlt: "Abstract representation of Assamese language and AI"
 readTime: 5 # Adjust read time as needed
 tags:

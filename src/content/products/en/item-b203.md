@@ -20,8 +20,8 @@ main:
     Introducing Product B203 – designed for optimal performance in Assamese AI applications. 
     This solution empowers businesses with cutting-edge language technology, enhancing 
     user experiences and operational efficiency.
-  imgCard: "@/images/icon.png"
-  imgMain: "@/images/icon.png"
+  imgCard: "@/images/idk.avif"
+  imgMain: "@/images/idk.avif"
   imgAlt: "Product B203 Logo"
 tabs:
   - id: "tabs-with-card-item-1"

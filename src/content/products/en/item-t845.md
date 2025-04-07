@@ -9,8 +9,8 @@ main:
   id: 1
   content: |
     Introducing the Navdyut AI Language Model – your premier solution for Assamese language processing. As the fastest and only existing AI specifically trained on the Assamese language, this model is meticulously crafted to meet the diverse demands of regional communication, ensuring accurate and efficient language interactions.
-  imgCard: "@/images/icon.png" # Replace with a card-style logo or relevant image
-  imgMain: "@/images/icon.png" # Replace with your main logo
+  imgCard: "@/images/fastestAI.avif" # Replace with a card-style logo or relevant image
+  imgMain: "@/images/fastestAI.avif" # Replace with your main logo
   imgAlt: "Navdyut AI Logo"
 tabs:
   - id: "tabs-with-card-item-1"

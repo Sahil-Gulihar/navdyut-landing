@@ -10,8 +10,8 @@ main:
   id: 2
   content: |
     Introducing the Navdyut AI Developer Toolkit – the ultimate resource for integrating Assamese language AI into your applications. This comprehensive toolkit includes a wide variety of APIs, SDKs, and documentation meticulously curated to empower developers to build innovative solutions with ease and precision.
-  imgCard: "@/images/before-after.avif" # Replace with a toolkit-themed logo or image
-  imgMain: "@/images/before-after.avif" # Replace with your main toolkit logo
+  imgCard: "@/images/toolKit.avif" # Replace with a toolkit-themed logo or image
+  imgMain: "@/images/toolKit.avif" # Replace with your main toolkit logo
   imgAlt: "Navdyut AI Developer Toolkit Logo"
 tabs:
   - id: "tabs-with-card-item-1"

@@ -2,10 +2,10 @@
 title: "Cost-Effective Assamese AI Solutions for Every Need with Navdyut AI"
 description: "Affordable and powerful Assamese language AI for diverse applications"
 author: "Navdyut AI Team"
-authorImage: "@/images/icon.png" # Replace with your actual logo path
+authorImage: "@/images/cost.jpeg" # Replace with your actual logo path
 authorImageAlt: "Navdyut AI Logo"
 pubDate: 2025-04-07 # Updated date
-cardImage: "@/images/icon.png" # Replace with a relevant image
+cardImage: "@/images/cost.jpeg" # Replace with a relevant image
 cardImageAlt: "Conceptual image representing affordable AI solutions"
 readTime: 4 # Adjust read time as needed
 tags:

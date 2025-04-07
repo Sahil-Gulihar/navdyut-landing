@@ -43,11 +43,7 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
                   >
                     {link.name}
                   </a>
-                  {section.section === "Company" && index === 2 ? (
-                    <span class="ms-1 inline rounded-lg bg-orange-500 px-2 py-1 text-xs font-bold text-neutral-50">
-                      We're hiring!
-                    </span>
-                  ) : null}
+              
                 </li>
               ))}
             </ul>
@@ -77,9 +73,9 @@ const crafted: string = Astro.currentLocale === "fr" ? "Fabriqué par" : "Crafte
           © <span id="current-year"></span> {SITE.title}. {crafted}
           <a
             class="rounded-lg font-medium underline underline-offset-2 outline-hidden ring-zinc-500 transition duration-300 hover:text-neutral-700 hover:decoration-dashed focus:outline-hidden focus-visible:ring-3 dark:ring-zinc-200 dark:hover:text-neutral-300"
-            href="https://www.gulamoff.dev/"
+            href="https://www.navdyut.com/"
             target="_blank"
-            rel="noopener noreferrer">gulamoff</a
+            rel="noopener noreferrer">Navdyut AI</a
           >.
         </p>
       </div>
