@@ -19,6 +19,7 @@ import speechImage from "@images/speech.avif";
 import intelImage from "@images/Intelliggence.avif";
 import apiImage from "@images/apiImage.avif";
 
+
 import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
@@ -33,20 +34,18 @@ const avatarSrcs: Array<string> = [
 ---
 
 <MainLayout>
-  <AnnouncementBanner
+  <!-- <AnnouncementBanner
     btnId="dismiss-button"
     btnTitle="Explore our Latest and Greatest Models"
     url="https://chat.navdyut.com"
-  />
+  /> -->
 
   <HeroSection
     title=`The Fluent Assamese with <span
-        class="text-yellow-500 dark:text-yellow-400">Navdyut AI</span>`
+        class="text-orange-500 dark:text-orange-400">Navdyut AI</span>`
     subTitle="Get in touch with your Assamese culture with our AI which thinks in Assamese"
-    primaryBtn="Start Exploring"
-    primaryBtnURL="/products"
-    secondaryBtn="Contact Our Team"
-    secondaryBtnURL="/contact"
+    primaryBtn="Chat Now!"
+    primaryBtnURL="https://chat.navdyut.com"
     withReview={true}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
@@ -56,15 +55,14 @@ const avatarSrcs: Array<string> = [
     alt="The fastest Assamese AI"
   />
 
-  <ClientsSection
+  <!-- <ClientsSection
     title="Trusted by Industry Leaders"
     subTitle="Experience the reliability chosen by industry giants."
     partners={partnersData}
-  />
+  /> -->
 
   <FeaturesGeneral
-
-title="Revolutionizing Assamese Language AI"
+    title="Revolutionizing Assamese Language AI"
     subTitle="Navdyut AI addresses the critical need for advanced language technology in the Assamese speaking community. As the fastest and only existing AI capable of understanding and generating Assamese, we are dedicated to bridging the digital gap and empowering communication."
     src={featureImage}
     alt="ScrewFast products in floating boxes"
@@ -72,105 +70,102 @@ title="Revolutionizing Assamese Language AI"
   />
 
   <FeaturesNavs
-  title={`Customize <span class="text-yellow-500 dark:text-yellow-400">Navdyut AI</span>'s capabilities to perfectly address your Assamese language processing requirements.`}
-  tabs={[
-    {
-      heading: "Fast Assamese Speech Generation",
-      content:
-        "Experience the speed of Navdyut AI in generating natural-sounding Assamese speech. Integrate our technology for rapid and efficient communication in various applications.",
-      svg: "microphone", // Consider a more relevant SVG icon
-      src: speechImage, // Replace with an image related to speech generation
-      alt: "Sound waves or a microphone representing speech",
-      first: true,
-    },
-    {
-      heading: "Intelligent Assamese Understanding",
-      content:
-        "Leverage Navdyut AI's ability to understand and interpret Assamese text and spoken language with high accuracy. Build applications that can comprehend user input effectively.",
-      svg: "message-square", // Consider a more relevant SVG icon
-      src: intelImage, // Replace with an image related to language understanding
-      alt: "Text bubbles or a brain representing language processing",
-      second: true,
-    },
-    {
-      heading: "Versatile Integration Options",
-      content:
-        "Integrate Navdyut AI seamlessly into your existing systems and workflows. Our flexible APIs and tools are designed for easy adoption across diverse platforms and applications.",
-      svg: "puzzle", // Consider a more relevant SVG icon
-      src: apiImage, // Replace with an image representing integration (e.g., connecting nodes)
-      alt: "Connecting pieces or API icons representing integration",
-    },
-    // {
-    //   heading: "Customizable Accents/Styles",
-    //   content: "Tailor the generated Assamese speech with different accents or speaking styles to suit your specific needs.",
-    //   svg: "sliders",
-    //   src: featureImage,
-    //   alt: "Sliders or controls representing customization",
-    // },
-    // {
-    //   heading: "Real-time Translation (if applicable)",
-    //   content: "Translate between Assamese and other languages in real-time for enhanced communication.",
-    //   svg: "translate",
-    //   src: featureImage,
-    //   alt: "Globe with language icons representing translation",
-    // },
-  ]}
-/>
+    title={`Customize <span class="text-yellow-500 dark:text-yellow-400">Navdyut AI</span>'s capabilities to perfectly address your Assamese language processing requirements.`}
+    tabs={[
+      {
+        heading: "Fast Assamese Speech Generation",
+        content:
+          "Experience the speed of Navdyut AI in generating natural-sounding Assamese speech. Integrate our technology for rapid and efficient communication in various applications.",
+        svg: "groups",
+        src: speechImage,
+        alt: "Sound waves or a microphone representing speech",
+        first: true,
+      },
+      {
+        heading: "Intelligent Assamese Understanding",
+        content:
+          "Leverage Navdyut AI's ability to understand and interpret Assamese text and spoken language with high accuracy. Build applications that can comprehend user input effectively.",
+        svg: "verified", // Consider a more relevant SVG icon
+        src: intelImage, // Replace with an image related to language understanding
+        alt: "Text bubbles or a brain representing language processing",
+        second: true,
+      },
+      {
+        heading: "Versatile Integration Options",
+        content:
+          "Integrate Navdyut AI seamlessly into your existing systems and workflows. Our flexible APIs and tools are designed for easy adoption across diverse platforms and applications.",
+        svg: "frame", // Consider a more relevant SVG icon
+        src: apiImage, // Replace with an image representing integration (e.g., connecting nodes)
+        alt: "Connecting pieces or API icons representing integration",
+      },
+      // {
+      //   heading: "Customizable Accents/Styles",
+      //   content: "Tailor the generated Assamese speech with different accents or speaking styles to suit your specific needs.",
+      //   svg: "sliders",
+      //   src: featureImage,
+      //   alt: "Sliders or controls representing customization",
+      // },
+      // {
+      //   heading: "Real-time Translation (if applicable)",
+      //   content: "Translate between Assamese and other languages in real-time for enhanced communication.",
+      //   svg: "translate",
+      //   src: featureImage,
+      //   alt: "Globe with language icons representing translation",
+      // },
+    ]}
+  />
 
-<TestimonialsSection
-title="Experience the Speed of Assamese AI"
-subTitle="With Navdyut AI, witness the fastest processing and generation of Assamese language. Integrate cutting-edge AI seamlessly into your applications."
-testimonials={[
-  {
-    content:
-      "Navdyut AI's speed in understanding and responding in Assamese is truly remarkable. Integration was straightforward, and it has significantly enhanced our ability to connect with our Assamese-speaking users.",
-    author: "Ananya Sharma",
-    role: "Lead Developer | BhashaTech Solutions",
-    avatarSrc:
-      "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=1464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80", // Replace with a relevant avatar
-  },
-  // You can add more testimonials here
-  // {
-  //   content: "We were amazed by how quickly Navdyut AI could generate natural-sounding Assamese. It's the fastest and most reliable solution we've found.",
-  //   author: "Debojit Bora",
-  //   role: "CEO | NorthEast Innovations",
-  //   avatarSrc: "URL_TO_DEBOJIT_BORA_AVATAR",
-  // },
-]}
-statistics={[
-  {
-    count: "Milliseconds", // Be more specific with the typical response time
-    description:
-      "response time for Assamese language processing",
-  },
-  {
-    count: "100%", // Adjust based on your accuracy metrics
-    description:
-      "accuracy in Assamese language understanding",
-  },
-  {
-    count: "First",
-    description:
-      "and only existing AI to speak Assamese fluently",
-  },
-  {
-    count: "Easy",
-    description: "integration with developer-friendly APIs",
-  },
-  // You can add more relevant statistics
-  // {
-  //   count: "Scalable",
-  //   description: "infrastructure to handle growing demands",
-  // },
-]}
-/>
+  <!-- <TestimonialsSection
+    title="Experience the Speed of Assamese AI"
+    subTitle="With Navdyut AI, witness the fastest processing and generation of Assamese language. Integrate cutting-edge AI seamlessly into your applications."
+    testimonials={[
+      {
+        content:
+          "Navdyut AI's speed in understanding and responding in Assamese is truly remarkable. Integration was straightforward, and it has significantly enhanced our ability to connect with our Assamese-speaking users.",
+        author: "Ananya Sharma",
+        role: "Lead Developer | BhashaTech Solutions",
+        avatarSrc:
+          "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?q=80&w=1464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80", // Replace with a relevant avatar
+      },
+      // You can add more testimonials here
+      // {
+      //   content: "We were amazed by how quickly Navdyut AI could generate natural-sounding Assamese. It's the fastest and most reliable solution we've found.",
+      //   author: "Debojit Bora",
+      //   role: "CEO | NorthEast Innovations",
+      //   avatarSrc: "URL_TO_DEBOJIT_BORA_AVATAR",
+      // },
+    ]}
+    statistics={[
+      {
+        count: "Milliseconds", // Be more specific with the typical response time
+        description: "response time for Assamese language processing",
+      },
+      {
+        count: "100%", // Adjust based on your accuracy metrics
+        description: "accuracy in Assamese language understanding",
+      },
+      {
+        count: "First",
+        description: "and only existing AI to speak Assamese fluently",
+      },
+      {
+        count: "Easy",
+        description: "integration with developer-friendly APIs",
+      },
+      // You can add more relevant statistics
+      // {
+      //   count: "Scalable",
+      //   description: "infrastructure to handle growing demands",
+      // },
+    ]}
+  /> -->
 
   <PricingSection pricing={pricing} />
 
   <FAQ title="Frequently<br />asked questions" faqs={faqs} />
   <HeroSectionAlt
-  title="Empowering Assamese Communication with AI"
-  subTitle="Navdyut AI is the fastest and only existing AI built to understand and speak Assamese, developed by Navdyut AI and Research Labs."
-  url="https://chat.navdyut.com"
-/>
+    title="Empowering Assamese Communication with AI"
+    subTitle="Navdyut AI is the fastest and only existing AI built to understand and speak Assamese, developed by Navdyut AI and Research Labs."
+    url="https://chat.navdyut.com"
+  />
 </MainLayout>

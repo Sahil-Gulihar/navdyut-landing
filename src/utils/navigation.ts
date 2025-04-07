@@ -1,10 +1,11 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+  // { name: "Products", url: "/products" },
+  // { name: "Services", url: "/services" },
   { name: "Blog", url: "/blog" },
   { name: "Contact", url: "mailTo:contact@navdyut.com" },
+  { name: "Research", url: "/research" },
 ];
 // An array of links for footer
 const footerLinks = [
@@ -12,8 +13,8 @@ const footerLinks = [
     section: "Ecosystem",
     links: [
       { name: "Documentation", url: "#" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Products", url: "/products" },
+      { name: "Services", url: "/services" },
     ],
   },
   {
@@ -21,22 +22,15 @@ const footerLinks = [
     links: [
       { name: "About us", url: "#" },
       { name: "Blog", url: "/blog" },
-      // { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+
+      { name: "Research", url: "/research" },
     ],
   },
 ];
-// An object of links for social icons
-const socialLinks = {
-  // facebook: "https://www.facebook.com/",
-  // x: "https://twitter.com/",
-  // github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.navdyut.com/",
-  // slack: "https://slack.com/",
-};
+
 
 export default {
   navBarLinks,
   footerLinks,
-  socialLinks,
+
 };

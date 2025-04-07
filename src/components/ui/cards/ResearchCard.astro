@@ -1,0 +1,77 @@
+---
+// This is an optional companion component for the research page
+// It would be used to display research projects in a consistent format
+// Path: @components/ui/cards/ResearchCard.astro
+
+// Define the props interface
+interface Props {
+  project: {
+    id: string;
+    title: string;
+    summary: string;
+    leadResearcher: string;
+    team: string[];
+    date: string;
+    status: string;
+    image: string;
+    imageAlt: string;
+    tags: string[];
+  };
+}
+
+// Get the research project data from props
+const { project } = Astro.props;
+
+// Format date function
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+}
+---
+
+<article class="group flex h-full flex-col overflow-hidden rounded-xl border border-neutral-200 bg-white transition-all duration-300 hover:border-neutral-300 hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800 dark:hover:border-neutral-600">
+  <div class="relative aspect-video w-full overflow-hidden">
+    <img 
+      src={project.image} 
+      alt={project.imageAlt}
+      class="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+    />
+    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 text-white">
+      <span class="inline-flex items-center rounded-full bg-black/30 px-2.5 py-1 text-xs font-medium backdrop-blur-sm">
+        {project.status}
+      </span>
+    </div>
+  </div>
+  
+  <div class="flex flex-1 flex-col p-4 sm:p-6">
+    <h3 class="mb-2 text-xl font-bold text-neutral-800 dark:text-neutral-200">
+      {project.title}
+    </h3>
+    
+    <p class="mb-4 flex-1 text-neutral-600 dark:text-neutral-400">
+      {project.summary}
+    </p>
+    
+    <div class="mt-auto">
+      <div class="mb-3 text-sm text-neutral-500 dark:text-neutral-500">
+        Lead: {project.leadResearcher}
+      </div>
+      
+      <div class="mb-3 text-sm text-neutral-500 dark:text-neutral-500">
+        {formatDate(project.date)}
+      </div>
+      
+      <div class="flex flex-wrap gap-2">
+        {project.tags.map((tag) => (
+          <span class="inline-flex items-center rounded-lg bg-neutral-100 px-2.5 py-1 text-xs font-medium text-neutral-800 dark:bg-neutral-700 dark:text-neutral-300">
+            {tag}
+          </span>
+        ))}
+      </div>
+    </div>
+  </div>
+</article>

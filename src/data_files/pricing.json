@@ -6,31 +6,32 @@
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
-    "price": "49",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "name": "Navdyut Lite",
+    "description": "Best option for people who want to talk more",
+    "price": "₹999",
+    "cents": "",
+    "billingFrequency": "INR / month",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Longer Chats",
+      "Faster Responses",
+      "Higher Chat Limits"
     ],
     "purchaseBtnTitle": "Get the Starter Kit",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
+    "name": "Navdyut Pro",
     "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "price": "₹2999",
+    "cents": "",
+    "billingFrequency": "INR / monthly",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Even Higher Limits",
+      "Image generation",
+      "Access to our Flagship MODEL",
+      "Document and Image upload",
+      "Best for Power users who want to do more"
     ],
     "purchaseBtnTitle": "Get the Professional Toolbox",
     "purchaseLink": "#"
