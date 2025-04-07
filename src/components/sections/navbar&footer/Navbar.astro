@@ -29,7 +29,11 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
         href={homeUrl}
         aria-label="Brand"
       >
-        <BrandLogo class="h-auto w-24" />
+      <img
+        class="h-auto w-12 p-2"
+        src="https://i.imgur.com/N18OPmT.png"
+        alt="Brand Logo"
+        >
       </a>
       <!-- Collapse toggle for smaller screens -->
       <div class="ml-auto mr-5 md:hidden">
@@ -90,7 +94,7 @@ const homeUrl = Astro.currentLocale === "fr" ? "/fr" : "/";
           <NavLink url={link.url} name={link.name} />
         ))}
 
-      |
+      
         <!-- <LanguagePicker /> -->
         <!-- ThemeIcon component specifically for larger screens -->
         <span class="hidden md:inline-block">
